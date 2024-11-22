@@ -1,0 +1,4 @@
+creation_rules:
+  - path_regex: "secrets.yaml"
+    encrypted_regex: "^(github_private_key|github_public_key|passwd)$"
+    age: "age1nfcf2rlll99xrukpgd8cffpsv86c26ddrrr5y7s8e83w2uefkdwsl2l4pm"
