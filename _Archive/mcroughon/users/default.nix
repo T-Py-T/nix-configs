@@ -1,3 +1,0 @@
-{
-  matthew = import ./taylor;
-}

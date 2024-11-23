@@ -1,1 +1,0 @@
-via-cli vpn status
