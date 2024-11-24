@@ -2,16 +2,21 @@
   # Configure fonts.
   fonts = {
     packages = with pkgs; [
-      (nerdfonts.override { fonts = [ "JetBrainsMono" "Noto" ]; })
+      noto-fonts
+      noto-fonts-cjk
+      noto-fonts-emoji
+      font-awesome
+      source-han-sans
+      source-han-sans-japanese
+      source-han-serif-japanese
+      (nerdfonts.override {fonts = ["Meslo"];})
     ];
-
     fontconfig = {
       enable = true;
       defaultFonts = {
-        monospace = [ "JetBrainsMono NF" "Noto Color Emoji" ];
-        serif = [ "NotoSerif NF" "Noto Color Emoji" ];
-        sansSerif = [ "NotoSans NF" "Noto Color Emoji" ];
-        emoji = [ "Noto Color Emoji" ];
+        monospace = ["Meslo LG M Regular Nerd Font Complete Mono"];
+        serif = ["Noto Serif" "Source Han Serif"];
+        sansSerif = ["Noto Sans" "Source Han Sans"];
       };
     };
   };

@@ -45,14 +45,15 @@
       # xautolock
       # xsel
 
-
       evince
       devenv
       filelight
       kdePackages.ark
       keepassxc
+      neovim
       pavucontrol
       pcmanfm
+      pciutils
       protonup-ng
       signal-desktop
       spotify
